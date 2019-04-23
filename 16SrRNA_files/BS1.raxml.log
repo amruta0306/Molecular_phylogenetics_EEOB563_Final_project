@@ -1,0 +1,60 @@
+
+RAxML-NG v. 0.8.0 BETA released on 11.01.2019 by The Exelixis Lab.
+Authors: Alexey Kozlov, Alexandros Stamatakis, Diego Darriba, Tomas Flouri, Benoit Morel.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+WARNING: This is a BETA release, please use at your own risk!
+
+RAxML-NG was called at 14-Apr-2019 17:20:42 as follows:
+
+raxml-ng --bootstrap --bs-trees 10 --msa 16SrRNA_alignment.fa --model GTR+G --prefix BS1 --seed 2 --threads 2
+
+Analysis options:
+  run mode: Bootstrapping
+  start tree(s): 
+  bootstrap replicates: 10
+  random seed: 2
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX
+  parallelization: PTHREADS (2 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: 16SrRNA_alignment.fa
+[00:00:00] Loaded alignment with 57 taxa and 1568 sites
+
+Alignment comprises 1 partitions and 307 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1568 / 307
+Gaps: 5.22 %
+Invariant sites: 4.53 %
+
+
+NOTE: Binary MSA file created: BS1.raxml.rba
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 154 / 2464
+[00:00:00] Starting bootstrapping analysis with 10 replicates.
+
+[00:00:03] Bootstrap tree #1, logLikelihood: -5832.321097
+[00:00:07] Bootstrap tree #2, logLikelihood: -5631.165475
+[00:00:10] Bootstrap tree #3, logLikelihood: -5614.172542
+[00:00:14] Bootstrap tree #4, logLikelihood: -5996.982366
+[00:00:17] Bootstrap tree #5, logLikelihood: -5948.571971
+[00:00:23] Bootstrap tree #6, logLikelihood: -6240.281279
+[00:00:27] Bootstrap tree #7, logLikelihood: -5993.210518
+[00:00:30] Bootstrap tree #8, logLikelihood: -6073.002122
+[00:00:34] Bootstrap tree #9, logLikelihood: -6144.386352
+[00:00:37] Bootstrap tree #10, logLikelihood: -5704.597308
+Bootstrap trees saved to: /home/amruta03/eeob563/eeob563/16SrRNA_files/BS1.raxml.bootstraps
+
+Execution log saved to: /home/amruta03/eeob563/eeob563/16SrRNA_files/BS1.raxml.log
+
+Analysis started: 14-Apr-2019 17:20:42 / finished: 14-Apr-2019 17:21:20
+
+Elapsed time: 37.986 seconds
+

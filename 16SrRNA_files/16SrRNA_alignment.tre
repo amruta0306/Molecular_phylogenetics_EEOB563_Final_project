@@ -1,0 +1,86 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sun Apr 14 22:26:12 2019]
+[!
+>Data file = 16SrRNA_alignment.nex
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 100
+>  Starting seed = generated automatically
+>  Number of characters resampled in each replicate = 1568
+>  Optimality criterion = distance (minimum evolution)
+>    Negative branch lengths allowed, but set to zero for tree-score calculation
+>    Distance measure = Jukes-Cantor
+>    All characters have equal weight
+>  Starting tree(s) obtained via neighbor-joining
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Zero-length branches not collapsed
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  100 bootstrap replicates completed
+>  Time used = 57.26 sec (CPU time = 57.27 sec)
+]
+	Translate
+		1 1_S_muscae,
+		2 2_S_agnetis,
+		3 3_S_arlettae,
+		4 4_S_aureus_anaerobius,
+		5 5_S_aureus_aureus,
+		6 6_S_auricularis,
+		7 7_S_capitis,
+		8 8_S_capitis_urealyticus,
+		9 9_S_caprae,
+		10 10_S_carnosus,
+		11 11_S_carnosus_utilis,
+		12 12_S_chromogenes,
+		13 13_S_cohnii_cohnii,
+		14 14_S_cohnii_urealyticus,
+		15 15_S_condimenti,
+		16 16_S_delphini,
+		17 17_S_devriesei,
+		18 18_S_epidermidis,
+		19 19_S_equorum,
+		20 20_S_equorum_linens,
+		21 21_S_felis,
+		22 22_S_fleurettii,
+		23 23_S_gallinarum,
+		24 24_S_haemolyticus,
+		25 25_S_hominis,
+		26 26_S_hominis_novobiosepticus,
+		27 27_S_hyicus,
+		28 28_S_intermedius,
+		29 29_S_kloosii,
+		30 30_S_lentus,
+		31 31_S_lugdunensis,
+		32 32_S_lutrae,
+		33 33_S_massiliensis,
+		34 34_S_microti,
+		35 35_S_nepalensis,
+		36 36_S_pasteuri,
+		37 37_S_pettenkoferi,
+		38 38_S_piscifermentans,
+		39 39_S_pseudintermedius,
+		40 40_S_rostri,
+		41 41_S_saccharolyticus,
+		42 42_S_saprophyticus,
+		43 43_S_saprophyticus_bovis,
+		44 44_S_schleiferi,
+		45 45_S_schleiferi_coagulans,
+		46 46_S_sciuri_carnaticus,
+		47 47_S_sciuri_rodentium,
+		48 48_S_sciuri_sciuri,
+		49 49_S_simiae,
+		50 50_S_simulans,
+		51 51_S_stepanovicii,
+		52 52_Staphylococcus_succinus,
+		53 53_S_succinus_casei,
+		54 54_S_vitulinus,
+		55 55_S_warneri,
+		56 56_S_xylosus,
+		57 B_subtilis
+		;
+tree 'PAUP_1' = [&U] (1:100,((((2:100,27:100):92,12:100):53,((16:100,(28:100,39:100):96):79,(44:100,45:100):100):69,21:100,32:100):80,((3:100,((13:100,14:100):80,35:100):53,(19:100,20:100):100,23:100,29:100,((42:100,43:100):93,56:100):91,(52:100,53:100):100):84,(((4:100,5:100):100,49:100):100,((7:100,8:100,9:100,41:100):75,18:100):99):69,6:100,((10:100,((11:100,38:100):100,15:100):62):100,50:100):72,(((17:100,24:100):56,(25:100,26:100):99):56,31:100):68,(((22:100,(46:100,47:100):84):81,48:100):72,((30:100,54:100):54,51:100):69):98,33:100,(36:100,55:100):98,37:100,57:100):95):99,(34:100,40:100):93);
+End;
