@@ -1,0 +1,72 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Apr 16 18:40:53 2019]
+[!
+>Data file = sc_alignment.nex
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = general time-reversible
+>  All characters have equal weight
+>  (Tree is unrooted)
+]
+	Translate
+		1 1_S_agnetis_concat,
+		2 2_S_arletta_concat,
+		3 3_S_aureus_subsp_anaerobius_concat,
+		4 4_S_aureus_subsp_aureus_concat,
+		5 5_S_auricularis_concat,
+		6 6_S_capitis_subsp_capitis_concat,
+		7 7_S_capitis_subsp_urealyticus_concat,
+		8 8_S_caprae_concat,
+		9 9_S_carnosus_concat,
+		10 10_S_carnosus_subsp_utilis_concat,
+		11 11_S_chromogens_concat,
+		12 12_S_cohnii_subsp_cohnii_concat,
+		13 13_S_cohnii_subsp_urealyticus_concat,
+		14 14_S_condimenti_concat,
+		15 15_S_delphini_concat,
+		16 16_S_devreisei_concat,
+		17 17_S_epidermidis_concat,
+		18 18_S_equorum_concat,
+		19 19_S_equorum_subsp_linens_concat,
+		20 20_S_felis_concat,
+		21 21_S_fleuretti_concat,
+		22 22_S_gallinarum_concat,
+		23 23_S_haemolyticus_concat,
+		24 24_S_hominis_subsp_hominis_concat,
+		25 25_S_hominis_subsp_novobsepticus_concat,
+		26 26_S_hyicus_concat,
+		27 27_S_intermedius_concat,
+		28 28_S_kloosi_concat,
+		29 29_S_lentus_concat,
+		30 30_S_lugdunensis_concat,
+		31 31_S_lutrae_concat,
+		32 32_S_massilensis_concat,
+		33 33_S_microti_concat,
+		34 34_S_muscae_concat,
+		35 35_S_nepalensis_concat,
+		36 36_S_pasteuri_concat,
+		37 37_S_pettenkoferi_concat,
+		38 38_S_piscifermentas_concat,
+		39 39_S_pseudintermedius_concat,
+		40 40_S_rostri_concat,
+		41 41_S_saccharolyticus_concat,
+		42 42_S_saprophyticus_subsp_bovis_concat,
+		43 43_S_saprophyticus_subsp_saprophyticus_concat,
+		44 44_S_schleiferi_subsp_coagulans_concat,
+		45 45_S_schleiferi_subsp_schleiferi_concat,
+		46 46_S_sciuri_subsp_carnaticus_concat,
+		47 47_S_sciuri_subsp_rodentium_concat,
+		48 48_S_sciuri_subsp_sciuri_concat,
+		49 49_S_simiae_concat,
+		50 50_S_simulans_concat,
+		51 51_stepanovicii_concat,
+		52 52_S_succinus_concat,
+		53 53_S_succinus_subsp_casei_concat,
+		54 54_S_vitulinus_concat,
+		55 55_S_warneri_concat,
+		56 56_S_xylosus_concat,
+		57 B_subtilis_concat_sequences
+		;
+tree 'PAUP_1' = [&U] (1,(((((((((2,(3,4)),((5,29),((((((((6,8),41),17),55),((16,23),24)),(((11,26),20),34)),((12,((18,56),22)),28)),(9,50)))),32),((((21,54),((46,47),48)),51),57)),((7,49),((25,30),36))),(((13,35),((19,(52,53)),(42,43))),37)),((10,14),38)),(44,45)),(((15,39),27),31)),(33,40));
+End;

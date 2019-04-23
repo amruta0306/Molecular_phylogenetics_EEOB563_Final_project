@@ -1,0 +1,94 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Mon Apr 15 12:15:01 2019]
+[!
+>Data file = sc_alignment.nex
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 100
+>  Starting seed = generated automatically
+>  Number of characters resampled in each replicate = 7650
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 7650 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        4616 characters are constant (proportion = 0.603399)
+>        1757 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 1277
+>    Gaps are treated as "missing"
+>    Multistate taxa interpreted as uncertainty
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: simple (reference taxon = 1 S agnetis concat)
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  100 bootstrap replicates completed
+>  Time used = 12.16 sec (CPU time = 12.16 sec)
+]
+	Translate
+		1 1_S_agnetis_concat,
+		2 2_S_arletta_concat,
+		3 3_S_aureus_subsp_anaerobius_concat,
+		4 4_S_aureus_subsp_aureus_concat,
+		5 5_S_auricularis_concat,
+		6 6_S_capitis_subsp_capitis_concat,
+		7 7_S_capitis_subsp_urealyticus_concat,
+		8 8_S_caprae_concat,
+		9 9_S_carnosus_concat,
+		10 10_S_carnosus_subsp_utilis_concat,
+		11 11_S_chromogens_concat,
+		12 12_S_cohnii_subsp_cohnii_concat,
+		13 13_S_cohnii_subsp_urealyticus_concat,
+		14 14_S_condimenti_concat,
+		15 15_S_delphini_concat,
+		16 16_S_devreisei_concat,
+		17 17_S_epidermidis_concat,
+		18 18_S_equorum_concat,
+		19 19_S_equorum_subsp_linens_concat,
+		20 20_S_felis_concat,
+		21 21_S_fleuretti_concat,
+		22 22_S_gallinarum_concat,
+		23 23_S_haemolyticus_concat,
+		24 24_S_hominis_subsp_hominis_concat,
+		25 25_S_hominis_subsp_novobsepticus_concat,
+		26 26_S_hyicus_concat,
+		27 27_S_intermedius_concat,
+		28 28_S_kloosi_concat,
+		29 29_S_lentus_concat,
+		30 30_S_lugdunensis_concat,
+		31 31_S_lutrae_concat,
+		32 32_S_massilensis_concat,
+		33 33_S_microti_concat,
+		34 34_S_muscae_concat,
+		35 35_S_nepalensis_concat,
+		36 36_S_pasteuri_concat,
+		37 37_S_pettenkoferi_concat,
+		38 38_S_piscifermentas_concat,
+		39 39_S_pseudintermedius_concat,
+		40 40_S_rostri_concat,
+		41 41_S_saccharolyticus_concat,
+		42 42_S_saprophyticus_subsp_bovis_concat,
+		43 43_S_saprophyticus_subsp_saprophyticus_concat,
+		44 44_S_schleiferi_subsp_coagulans_concat,
+		45 45_S_schleiferi_subsp_schleiferi_concat,
+		46 46_S_sciuri_subsp_carnaticus_concat,
+		47 47_S_sciuri_subsp_rodentium_concat,
+		48 48_S_sciuri_subsp_sciuri_concat,
+		49 49_S_simiae_concat,
+		50 50_S_simulans_concat,
+		51 51_stepanovicii_concat,
+		52 52_S_succinus_concat,
+		53 53_S_succinus_subsp_casei_concat,
+		54 54_S_vitulinus_concat,
+		55 55_S_warneri_concat,
+		56 56_S_xylosus_concat,
+		57 B_subtilis_concat_sequences
+		;
+tree 'PAUP_1' = [&U] (1:100,(((2:100,(3:100,4:100):100):100,((5:100,29:100):97,(((((6:100,8:100):62.833,41:100):53.067,17:100):95,55:100):83,((16:100,23:100):57,24:100):87):80,(9:100,50:100):98,((11:100,26:100):100,20:100,34:100):96,((12:100,((18:100,56:100):92.5,22:100):66.333):67,28:100):93.167):97.333):94,(7:100,(25:100,30:100):81.433,36:100,49:100):54.833,((10:100,14:100):99,38:100):99,((13:100,35:100):97,((19:100,(52:100,53:100):100):99,(42:100,43:100):100):100):98,((((21:100,54:100):62.75,((46:100,47:100):90,48:100):100):94.5,51:100):87,57:100):81.25,32:100,37:100):83.75,((((15:100,39:100):100,27:100):100,31:100):88.417,(44:100,45:100):100):54,(33:100,40:100):100);
+End;

@@ -1,0 +1,106 @@
+
+RAxML-NG v. 0.8.0 BETA released on 11.01.2019 by The Exelixis Lab.
+Authors: Alexey Kozlov, Alexandros Stamatakis, Diego Darriba, Tomas Flouri, Benoit Morel.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+WARNING: This is a BETA release, please use at your own risk!
+
+RAxML-NG was called at 14-Apr-2019 18:04:15 as follows:
+
+raxml-ng --all -bs-trees 10 --msa sc_concat_alignment.fa --outgroup B_subtilis_concat_sequences --model GTR+G --prefix BS2 --seed 2 --threads 2 --bs-metric fbp,tbe
+
+Analysis options:
+  run mode: ML tree search + bootstrapping (Felsenstein Bootstrap + Transfer Bootstrap)
+  start tree(s): random (10) + parsimony (10)
+  bootstrap replicates: 10
+  random seed: 2
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX
+  parallelization: PTHREADS (2 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: sc_concat_alignment.fa
+[00:00:00] Loaded alignment with 57 taxa and 7650 sites
+
+Alignment comprises 1 partitions and 1915 patterns
+
+Partition 0: noname
+Model: GTR+FO+G4m
+Alignment sites / patterns: 7650 / 1915
+Gaps: 60.04 %
+Invariant sites: 3.28 %
+
+
+NOTE: Binary MSA file created: BS2.raxml.rba
+
+[00:00:00] Generating 10 random starting tree(s) with 57 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 57 taxa
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 958 / 15328
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:28] ML tree search #1, logLikelihood: -52286.878521
+[00:01:04] ML tree search #2, logLikelihood: -52286.300022
+[00:01:40] ML tree search #3, logLikelihood: -52286.283037
+[00:02:06] ML tree search #4, logLikelihood: -52286.300724
+[00:02:36] ML tree search #5, logLikelihood: -52286.275990
+[00:03:11] ML tree search #6, logLikelihood: -52286.280885
+[00:03:41] ML tree search #7, logLikelihood: -52286.874068
+[00:04:08] ML tree search #8, logLikelihood: -52286.286536
+[00:04:35] ML tree search #9, logLikelihood: -52286.298370
+[00:05:04] ML tree search #10, logLikelihood: -52286.289715
+[00:05:29] ML tree search #11, logLikelihood: -52286.264998
+[00:05:49] ML tree search #12, logLikelihood: -52286.265325
+[00:06:06] ML tree search #13, logLikelihood: -52286.867798
+[00:06:29] ML tree search #14, logLikelihood: -52286.270175
+[00:06:49] ML tree search #15, logLikelihood: -52286.869758
+[00:07:11] ML tree search #16, logLikelihood: -52286.865058
+[00:07:33] ML tree search #17, logLikelihood: -52286.865627
+[00:07:51] ML tree search #18, logLikelihood: -52286.871546
+[00:08:14] ML tree search #19, logLikelihood: -52286.270916
+[00:08:36] ML tree search #20, logLikelihood: -52286.868676
+
+[00:08:36] ML tree search completed, best tree logLH: -52286.264998
+
+[00:08:36] Starting bootstrapping analysis with 10 replicates.
+
+[00:08:56] Bootstrap tree #1, logLikelihood: -51861.870583
+[00:09:17] Bootstrap tree #2, logLikelihood: -53044.201607
+[00:09:34] Bootstrap tree #3, logLikelihood: -52336.597212
+[00:09:58] Bootstrap tree #4, logLikelihood: -52883.003466
+[00:10:22] Bootstrap tree #5, logLikelihood: -53006.115939
+[00:10:45] Bootstrap tree #6, logLikelihood: -53576.688129
+[00:11:07] Bootstrap tree #7, logLikelihood: -52392.140223
+[00:11:34] Bootstrap tree #8, logLikelihood: -52880.907672
+[00:11:53] Bootstrap tree #9, logLikelihood: -51209.623925
+[00:12:13] Bootstrap tree #10, logLikelihood: -52382.318585
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: GAMMA (4 cats, mean),  alpha: 0.313195 (ML),  weights&rates: (0.250000,0.006427) (0.250000,0.114791) (0.250000,0.617311) (0.250000,3.261471) 
+   Base frequencies (ML): 0.298992 0.191088 0.225662 0.284258 
+   Substitution rates (ML): 2.525748 5.793696 4.386834 1.383089 10.805320 1.000000 
+
+Final LogLikelihood: -52286.264998
+
+AIC score: 104812.529997 / AICc score: 104816.387083 / BIC score: 105645.625308
+Free parameters (model + branch lengths): 120
+
+All ML trees saved to: /home/amruta03/eeob563/eeob563/sc_data/BS2.raxml.mlTrees
+Best ML tree saved to: /home/amruta03/eeob563/eeob563/sc_data/BS2.raxml.bestTree
+Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /home/amruta03/eeob563/eeob563/sc_data/BS2.raxml.supportFBP
+Best ML tree with Transfer bootstrap (TBE) support values saved to: /home/amruta03/eeob563/eeob563/sc_data/BS2.raxml.supportTBE
+Optimized model saved to: /home/amruta03/eeob563/eeob563/sc_data/BS2.raxml.bestModel
+Bootstrap trees saved to: /home/amruta03/eeob563/eeob563/sc_data/BS2.raxml.bootstraps
+
+Execution log saved to: /home/amruta03/eeob563/eeob563/sc_data/BS2.raxml.log
+
+Analysis started: 14-Apr-2019 18:04:15 / finished: 14-Apr-2019 18:16:28
+
+Elapsed time: 733.156 seconds
+
