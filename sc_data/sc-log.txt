@@ -1,0 +1,89 @@
+   Logging screen output to file "sc-log.txt"
+
+MrBayes > 
+   Executing file "sc_alignment.nex"
+   UNIX line termination
+   Longest line length = 7697
+   Parsing file
+   Expecting NEXUS formatted file
+   Reading data block
+      Allocated taxon set
+      Allocated matrix
+      Defining new matrix with 57 taxa and 7650 characters
+      Data is Dna
+      Gaps coded as -
+      Missing data coded as ?
+      Taxon  1 -> 1_S_agnetis_concat
+      Taxon  2 -> 2_S_arletta_concat
+      Taxon  3 -> 3_S_aureus_subsp_anaerobius_concat
+      Taxon  4 -> 4_S_aureus_subsp_aureus_concat
+      Taxon  5 -> 5_S_auricularis_concat
+      Taxon  6 -> 6_S_capitis_subsp_capitis_concat
+      Taxon  7 -> 7_S_capitis_subsp_urealyticus_concat
+      Taxon  8 -> 8_S_caprae_concat
+      Taxon  9 -> 9_S_carnosus_concat
+      Taxon 10 -> 10_S_carnosus_subsp_utilis_concat
+      Taxon 11 -> 11_S_chromogens_concat
+      Taxon 12 -> 12_S_cohnii_subsp_cohnii_concat
+      Taxon 13 -> 13_S_cohnii_subsp_urealyticus_concat
+      Taxon 14 -> 14_S_condimenti_concat
+      Taxon 15 -> 15_S_delphini_concat
+      Taxon 16 -> 16_S_devreisei_concat
+      Taxon 17 -> 17_S_epidermidis_concat
+      Taxon 18 -> 18_S_equorum_concat
+      Taxon 19 -> 19_S_equorum_subsp_linens_concat
+      Taxon 20 -> 20_S_felis_concat
+      Taxon 21 -> 21_S_fleuretti_concat
+      Taxon 22 -> 22_S_gallinarum_concat
+      Taxon 23 -> 23_S_haemolyticus_concat
+      Taxon 24 -> 24_S_hominis_subsp_hominis_concat
+      Taxon 25 -> 25_S_hominis_subsp_novobsepticus_concat
+      Taxon 26 -> 26_S_hyicus_concat
+      Taxon 27 -> 27_S_intermedius_concat
+      Taxon 28 -> 28_S_kloosi_concat
+      Taxon 29 -> 29_S_lentus_concat
+      Taxon 30 -> 30_S_lugdunensis_concat
+      Taxon 31 -> 31_S_lutrae_concat
+      Taxon 32 -> 32_S_massilensis_concat
+      Taxon 33 -> 33_S_microti_concat
+      Taxon 34 -> 34_S_muscae_concat
+      Taxon 35 -> 35_S_nepalensis_concat
+      Taxon 36 -> 36_S_pasteuri_concat
+      Taxon 37 -> 37_S_pettenkoferi_concat
+      Taxon 38 -> 38_S_piscifermentas_concat
+      Taxon 39 -> 39_S_pseudintermedius_concat
+      Taxon 40 -> 40_S_rostri_concat
+      Taxon 41 -> 41_S_saccharolyticus_concat
+      Taxon 42 -> 42_S_saprophyticus_subsp_bovis_concat
+      Taxon 43 -> 43_S_saprophyticus_subsp_saprophyticus_concat
+      Taxon 44 -> 44_S_schleiferi_subsp_coagulans_concat
+      Taxon 45 -> 45_S_schleiferi_subsp_schleiferi_concat
+      Taxon 46 -> 46_S_sciuri_subsp_carnaticus_concat
+      Taxon 47 -> 47_S_sciuri_subsp_rodentium_concat
+      Taxon 48 -> 48_S_sciuri_subsp_sciuri_concat
+      Taxon 49 -> 49_S_simiae_concat
+      Taxon 50 -> 50_S_simulans_concat
+      Taxon 51 -> 51_stepanovicii_concat
+      Taxon 52 -> 52_S_succinus_concat
+      Taxon 53 -> 53_S_succinus_subsp_casei_concat
+      Taxon 54 -> 54_S_vitulinus_concat
+      Taxon 55 -> 55_S_warneri_concat
+      Taxon 56 -> 56_S_xylosus_concat
+      Taxon 57 -> B_subtilis_concat_sequences
+      Successfully read matrix
+      Setting default partition (does not divide up characters)
+      Setting model defaults
+      Seed (for generating default start values) = 1556231161
+      Setting output file names to "sc_alignment.nex.run<i>.<p|t>"
+   Exiting data block
+   Reached end of file
+
+MrBayes > 
+   Setting outgroup to taxon "B_subtilis_concat_sequences"
+
+MrBayes > 
+   Could not find command "exit"
+
+MrBayes > 
+   Deleting previously defined characters
+   Deleting previously defined taxa
