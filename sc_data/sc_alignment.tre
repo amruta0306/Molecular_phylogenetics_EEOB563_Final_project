@@ -1,11 +1,11 @@
 #NEXUS 
 
-Begin trees;  [Treefile saved Tue Apr 16 18:40:53 2019]
+Begin trees;  [Treefile saved Sun Apr 28 00:58:30 2019]
 [!
 >Data file = sc_alignment.nex
 >Neighbor-joining search settings:
 >  Ties (if encountered) will be broken systematically
->  Distance measure = general time-reversible
+>  Distance measure = Jukes-Cantor
 >  All characters have equal weight
 >  (Tree is unrooted)
 ]
