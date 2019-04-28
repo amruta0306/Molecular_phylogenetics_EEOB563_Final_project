@@ -1,0 +1,71 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sun Apr 28 14:52:57 2019]
+[!
+>Data file = rpoB_alignment.nex
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = Jukes-Cantor
+>  All characters have equal weight
+>  (Tree is unrooted)
+]
+	Translate
+		1 1_S_agnetis,
+		2 2_S_arlettae,
+		3 3_S_aureus_anaerobius,
+		4 4_S_auricularis,
+		5 5_S_capitis_capitis,
+		6 6_S_capitis_urealyticus,
+		7 7_S_caprae,
+		8 8_S_carnosus_carnosus,
+		9 9_S_carnosus_utilis,
+		10 10_S_chromogenes,
+		11 11_S_cohnii_cohnii,
+		12 12_S_cohnii_urealyticus,
+		13 13_S_condimenti,
+		14 14_S_delphini,
+		15 15_S_devriesei,
+		16 16_S_epidermidis,
+		17 17_S_equorum,
+		18 18_S_equorum_linens,
+		19 19_S_felis,
+		20 20_S_fleurettii,
+		21 21_S_gallinarum,
+		22 22_S_haemolyticus,
+		23 23_S_hominis_hominis,
+		24 24_S_hominis_novobiosepticus,
+		25 25_S_hyicus,
+		26 26_S_intermedius,
+		27 27_S_kloosii,
+		28 28_S_lentus,
+		29 29_S_lugdunensis,
+		30 30_S_lutrae,
+		31 31_S_microti,
+		32 32_S_muscae,
+		33 33_S_nepalensis,
+		34 34_S_pasteuri,
+		35 35_S_pettenkoferi,
+		36 36_S_piscifermentans,
+		37 37_S_pseudintermedius,
+		38 38_S_pulvereri,
+		39 39_S_rostri,
+		40 40_S_saccharolyticus,
+		41 41_S_saprophyticus_bovis,
+		42 42_S_saprophyticus_saprophyticus,
+		43 43_S_schleiferi,
+		44 44_S_schleiferi_coagulans,
+		45 45_S_sciuri_carnaticus,
+		46 46_S_sciuri_rodentium,
+		47 47_S_sciuri_sciuri,
+		48 48_S_simiae,
+		49 49_S_simulans,
+		50 50_S_stepanovicii,
+		51 51_S_succinus_casei,
+		52 52_S_succinus_succinus,
+		53 53_S_vitulinus,
+		54 54_S_warneri,
+		55 55_xylosus,
+		56 Bacillus_subtilis
+		;
+tree 'PAUP_1' = [&U] (1,(((((((((((((2,((3,11),(17,21))),(((4,38),28),((19,32),43))),(5,((15,54),23))),22),7),40),(16,(27,55))),(8,49)),(10,25)),56),(((20,53),((45,47),46)),50)),((((6,48),((12,33),((18,(51,52)),(41,42)))),(((24,29),34),35)),((9,13),36))),(((14,37),26),(30,(31,39)))),44);
+End;
